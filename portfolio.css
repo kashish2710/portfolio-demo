@@ -1,0 +1,351 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0)  ;
+    
+    /* position: absolute; */
+    /* left: auto; */
+
+}
+#main{
+    width:1000px;
+    height:600px ;
+    display:flex;
+    justify-content:space-between;
+}
+#big{
+    height:600px ;
+    width:500px;
+    background-color: rgb(0, 120, 0);
+    position: absolute;
+    left: 450px;
+   
+}
+
+
+
+#links{
+    height:400px;
+    width:100px;
+ background-color:rgb(0, 0, 0);
+ 
+
+    
+}
+#container{
+   
+    margin: 0px;
+    height:600px;
+    width:600px;
+    background-color:rgb(0, 0, 0);
+    
+ 
+
+
+}
+#intro{
+    background-color: black;
+    height:100px;
+    width:450px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color:  aliceblue;
+    text-align: center;
+    margin-left: 50px;
+    /* font-size: 90px; */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter  2s  1s steps(13) 1 ,
+        blink 800ms steps(10) infinite normal;
+    border-right: 5px solid black;
+    text-shadow: 0 0 5px #9ecaed;
+}
+
+
+
+@keyframes typewriter {
+from {
+    width: 0%;
+    text-shadow: 0 0 20px #9ecaed;
+    
+    
+}
+
+to {
+    width: 75%;
+    text-shadow: 0 0 10px #9ecaed;
+}
+}
+
+#intro2{
+    height:70px;
+    width:500px;
+    background-color: black;
+    font-family:Verdana, Geneva,  Tahoma, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#pic{
+    width:400px;
+    height:400px;
+    background-image: url("mypic.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    transition: all 1s ease-in-out;
+    margin-left: 60px;
+    box-shadow: 0 0 5px aliceblue;
+}
+.mypic:hover{
+    transform: scale(1.1);
+    opacity: 1.4;
+}
+.anchor{
+    margin-left: 20px;
+    margin-top: 20px;
+    height:50px;
+    width:50px;
+    background-color: rgb(0, 0, 0);
+   
+}
+#mail{
+    margin-left: 40px;
+}
+.anchor:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    opacity: 1.3;
+}
+#para{
+
+height: 400px;
+width:1000px;
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+margin-left: 150px;
+margin-top:40px ;
+
+}
+.hello{
+    margin-top: 50px;
+    height: 100px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+/* #myproject{
+    width:1000px;
+    height:300px;
+    margin-left: 150px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue ;
+text-align: center;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+#heading{
+    margin-left: 70px;
+    height: 80px;
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+}
+.project1{
+    width:150px;
+    height:200px;
+    background-color: rgb(0, 0, 0);
+    border-radius:  7%;
+    transition: all 1s ease-in-out;
+    border: solid  #9ecaed 3px;
+    box-shadow: 0 0 10px #9ecaed;
+    /* filter: brightness(50%); */
+}
+#one{
+    width:1000px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#two{
+    width:800px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.project2{
+    width:250px;
+    height:250px;
+    background-color: rgb(0, 0, 0);
+    border-radius:  5%;
+}
+.project1:hover{
+    transform: scale(1.2);
+    
+    box-shadow: 0 0 20px #9ecaed;
+   
+
+}
+#calc{
+
+}
+#calc2{
+    width:150px;
+    height:150px;
+    background-image: url("calc.png");
+background-size: cover;
+}
+#portfolio{
+    width:150px;
+    height:150px;
+   
+    background-image: url("login favicon.png");
+background-size: cover;
+}
+#chess{width:150px;
+    height:150px;
+    filter: brightness(70%); 
+    background-image: url("chess.jpg");
+background-size: cover;
+
+}
+#time{
+    width:150px;
+    height:150px;
+   
+    background-image: url("timestamp.png");
+background-size: cover;
+}
+
+#download{
+    width: 155px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 1100px;
+    margin-top: 20px;
+    
+}
+.btn {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    
+    
+    /* box-shadow: 0 0 10px #9ecaed; */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(200, 252, 255);
+    color: black;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+  #home{
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+  }
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

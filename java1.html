@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<h2>this is html</h2>
+<p id="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam earum dicta sunt? Voluptatum expedita animi praesentium laudantium assumenda deserunt dignissimos Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas placeat ea similique modi commodi eveniet odio, officia incidunt obcaecati assumenda debitis sunt animi ducimus iure sequi quidem doloremque deleniti ratione.
+Recusandae odio laborum voluptates quasi. Tempora exercitationem dignissimos quas molestiae maxime, rerum iure, veniam ratione ipsa reprehenderit id autem expedita cumque inventore corporis quasi dicta numquam eius commodi culpa? Exercitationem?laborum harum. Modi vitae harum et veniam nisi optio </p> 
+<body>
+   darkmode option
+   <button id="box"  onclick="myfunction()" > darkmode </button>
+    <script 
+   >function myfunction(){
+    document.getElementById("box").innerText=Math.random();
+    document.body.style.backgroundColor="black";
+    document.getElementById("para").style.color="pink";
+    document.addEventListener("click",function(){alert("darkmode on ");});
+   } 
+   button.click(function myfunction2(){
+    document.getElementById("box").innerText="darkmode";
+    document.body.style.backgroundColor="white";
+    document.getElementById("para").style.color="black";
+
+   })
+ 
+   </script> 
+  <script id="time">function mytime(){
+    let hour=new Date.getHours();
+    let minutes=new Date.getMinutes();
+    let seconds=new Date.getSeconds();
+
+document.getElementById("time").innerHTML= hour +":" + minutes +":" + seconds;} </script>
+</body>
+</html>
